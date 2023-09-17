@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// initialize variables here
+
+	// var declaration (var name type = value) if no value is decleared it will use its default value (0/false/empty)
+
+	var smsSendingLimit int
+	var costPerSMS float32
+	var hasPermission bool
+	var username string
+
+	fmt.Printf("%v %f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
+}

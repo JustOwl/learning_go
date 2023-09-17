@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	// declare here
+	// you can also declare var this way (name := value) it will be an inferred value
+	// value := whole number will be inferred as an int
+	// value := fraction (0.X) will be inferred as a float64
+	// value := true/false will be inferred as a bool
+	// value := "" will be inferred as a string
+
+	congrats := "happy birthday!"
+	fmt.Println(congrats)
+}

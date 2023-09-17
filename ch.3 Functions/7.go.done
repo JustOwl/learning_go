@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	// if a func returns more than one value you use a underscore _ to ignore the returned value at that position
+	// Go will not compile if you have unused values so you need to ignore them
+	firstName, _ := getNames()
+	fmt.Println("Welcome to Textio,", firstName)
+}
+
+// don't edit below this line
+
+func getNames() (string, string) {
+	return "John", "Doe"
+}

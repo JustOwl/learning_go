@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	const name = "Saul Goodman"
+	const openRate = 30.5555
+
+	// made msg use the name and openRate values so the output would equal:
+	// Hi NAME, your open rate is OPENRATE percent
+	// and that openRate should be rounded to 1/10 decimal
+	msg := fmt.Sprintf("Hi %s, your open rate is %.1f percent", name, openRate)
+
+	// don't edit below this line
+
+	fmt.Println(msg)
+}
